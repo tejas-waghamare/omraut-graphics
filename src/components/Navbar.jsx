@@ -98,7 +98,7 @@ const Navbar = ({ currentPage, setCurrentPage, language, setLanguage }) => {
   ];
   
   return (
-    <nav className="fixed top-0 w-full bg-gradient-to-r from-blue-900 to-purple-900 text-white shadow-lg z-50">
+    <nav className="fixed top-0 w-full bg-gradient-to-r from-sky-700 to-purple-900 text-white shadow-lg z-50">
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-3">
@@ -119,7 +119,7 @@ const Navbar = ({ currentPage, setCurrentPage, language, setLanguage }) => {
             >
               <Globe size={16} />
               <span className="font-medium">
-                {language === 'marathi' ? 'EN' : 'मर'}
+                {language === 'marathi' ? 'EN' : 'मरा'}
               </span>
             </button>
             

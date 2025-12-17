@@ -76,6 +76,7 @@
 
 import React from 'react';
 import { PlayCircle, Image, Brush, Target, CheckCircle, Clock, Users, Award, ArrowRight } from 'lucide-react';
+import bg from '../assets/image.png'
 
 const Home = ({ language, setCurrentPage }) => {
   const content = language === 'marathi' ? {
@@ -125,8 +126,10 @@ const Home = ({ language, setCurrentPage }) => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-blue-900 via-purple-800 to-pink-700 text-white">
-        <div className="absolute inset-0 bg-black opacity-20"></div>
+      <section className="relative h-150 overflow-hidden bg-gradient-to-br from-slate-950 via-zinc-950 to-gray-950 text-white">
+        <div className="absolute inset-0 bg-black opacity-10">
+            <img className='h-full w-full' src={bg} alt="" />
+            </div>
         <div className="container relative mx-auto px-4 py-20 md:py-28">
           <div className="max-w-3xl">
             <div className="mb-6">
