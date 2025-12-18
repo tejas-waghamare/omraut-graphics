@@ -133,8 +133,8 @@ const Home = ({ language, setCurrentPage }) => {
         <div className="container relative mx-auto px-4 py-20 md:py-28">
           <div className="max-w-3xl">
             <div className="mb-6">
-              <h2 className="text-3xl md:text-6xl font-bold text-yellow-300 mb-2">{content.heroTitle}</h2>
-              <h1 className="text-4xl md:text-4xl font-bold mb-4 ">{content.heroSubtitle}</h1>
+              <h2 className="text-5xl md:text-6xl font-bold text-yellow-300 mb-2">{content.heroTitle}</h2>
+              <h1 className="text-2xl md:text-4xl font-bold mb-4 ">{content.heroSubtitle}</h1>
               <p className="text-xl mb-8 text-sky-200">{content.heroDescription}</p>
             </div>
             <div className="flex flex-wrap gap-4">
