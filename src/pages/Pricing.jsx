@@ -435,10 +435,10 @@ const Pricing = ({ language }) => {
         features: [
           { included: true, text: 'Professional Logo Design' },
           { included: true, text: '30 Design Concepts' },
-          { included: true, text: '5 Revisions' },
+          { included: true, text: '3 Revisions' },
           { included: true, text: '5 Videos' },
           { included: true, text: 'Brand Style Guide' },
-          { included: true, text: 'Social Media Kit' },
+          { included: false, text: 'Social Media Kit' },
           { included: false, text: 'Unlimited Revisions' },
           { included: true, text: 'Priority Support' },
         ],
