@@ -132,7 +132,7 @@ const Footer = ({ language, setCurrentPage }) => {
     newsletterPlaceholder: 'तुमचा ईमेल',
     subscribe: 'सबस्क्राईब',
     rights: 'सर्व हक्क राखीव',
-    address: 'नांदगाव पेठ,अमरावती, महाराष्ट्र',
+    address: 'अमरावती, महाराष्ट्र',
     phone: '8717133672, 7218644962',
     email: 'info@omrautgraphics.com',
     
@@ -200,10 +200,10 @@ const Footer = ({ language, setCurrentPage }) => {
             </p>
             <div className="flex space-x-4">
               <a href="https://www.facebook.com/share/1DDyenr9Lh/" className="text-gray-300 hover:text-white transition">
-                <Facebook size={20} />
+                <Facebook size={40} />
               </a>
               <a href="https://www.instagram.com/omraut_graphics_173?igsh=ajExNWZjbGJqN3Fm" className="text-gray-300 hover:text-white transition">
-                <Instagram size={20} />
+                <Instagram size={40} />
               </a>
               
             </div>

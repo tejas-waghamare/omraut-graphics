@@ -290,13 +290,13 @@ const Pricing = ({ language }) => {
       {
         name: 'बेसिक',
         description: 'लहान व्यवसाय आणि सुरुवातीसाठी',
-        price: '१,९९९',
+        price: '२,९९९/महिना',
         features: [
           { included: true, text: 'साधे लोगो डिझाईन' },
-          { included: true, text: '२ डिझाईन संकल्पना' },
+          { included: true, text: '२0 डिझाईन संकल्पना' },
           { included: true, text: '२ वेळा बदल' },
-          { included: true, text: 'सोर्स फाइल्स' },
-          { included: false, text: 'ब्रँड स्टाईल गाइड' },
+          { included: true, text: '४ व्हिडिओ' },
+          // { included: false, text: 'ब्रँड स्टाईल गाइड' },
           { included: false, text: 'सोशल मीडिया किट' },
           { included: false, text: 'अमर्यादित बदल' },
           { included: false, text: 'प्राधान्य समर्थन' },
@@ -307,14 +307,14 @@ const Pricing = ({ language }) => {
       {
         name: 'स्टँडर्ड',
         description: 'वाढत्या व्यवसायांसाठी योग्य',
-        price: '४,९९९',
+        price: '5,999/महिना',
         features: [
           { included: true, text: 'व्यावसायिक लोगो डिझाईन' },
-          { included: true, text: '४ डिझाईन संकल्पना' },
-          { included: true, text: '४ वेळा बदल' },
-          { included: true, text: 'सर्व सोर्स फाइल्स' },
-          { included: true, text: 'ब्रँड स्टाईल गाइड' },
-          { included: true, text: 'सोशल मीडिया किट' },
+          { included: true, text: '30 डिझाईन संकल्पना' },
+          { included: true, text: '3 वेळा बदल' },
+          { included: true, text: '5 व्हिडिओ' },
+          // { included: true, text: 'ब्रँड स्टाईल गाइड' },
+          { included: false, text: 'सोशल मीडिया किट' },
           { included: false, text: 'अमर्यादित बदल' },
           { included: true, text: 'प्राधान्य समर्थन' },
         ],
@@ -324,7 +324,7 @@ const Pricing = ({ language }) => {
       {
         name: 'प्रीमियम',
         description: 'मोठ्या प्रकल्पांसाठी संपूर्ण पॅकेज',
-        price: '९,९९९',
+        price: '९,९९९/महिना',
         features: [
           { included: true, text: 'कॉर्पोरेट ब्रँडिंग' },
           { included: true, text: 'अमर्यादित संकल्पना' },
@@ -373,8 +373,8 @@ const Pricing = ({ language }) => {
       },
       {
         icon: <Palette size={24} />,
-        name: 'ब्रोशर डिझाईन',
-        price: '₹ १,५०० ते ₹ ५,०००',
+        name: 'वेबसाइट डिझाइन',
+        price: '₹ 3,000 ते ₹ 10,000',
         description: 'पृष्ठ आणि डिझाईननुसार'
       },
     ],
@@ -414,13 +414,13 @@ const Pricing = ({ language }) => {
       {
         name: 'Basic',
         description: 'For small businesses and startups',
-        price: '2,999',
+        price: '2,999/Month',
         features: [
           { included: true, text: 'Simple Logo Design' },
-          { included: true, text: '2 Design Concepts' },
+          { included: true, text: '20 Design Concepts' },
           { included: true, text: '2 Revisions' },
-          { included: true, text: 'Source Files' },
-          { included: false, text: 'Brand Style Guide' },
+          { included: true, text: '4 Videos' },
+          // { included: false, text: 'Brand Style Guide' },
           { included: false, text: 'Social Media Kit' },
           { included: false, text: 'Unlimited Revisions' },
           { included: false, text: 'Priority Support' },
@@ -434,9 +434,9 @@ const Pricing = ({ language }) => {
         price: '4,999',
         features: [
           { included: true, text: 'Professional Logo Design' },
-          { included: true, text: '4 Design Concepts' },
-          { included: true, text: '4 Revisions' },
-          { included: true, text: 'All Source Files' },
+          { included: true, text: '30 Design Concepts' },
+          { included: true, text: '5 Revisions' },
+          { included: true, text: '5 Videos' },
           { included: true, text: 'Brand Style Guide' },
           { included: true, text: 'Social Media Kit' },
           { included: false, text: 'Unlimited Revisions' },
@@ -448,7 +448,7 @@ const Pricing = ({ language }) => {
       {
         name: 'Premium',
         description: 'Complete package for large projects',
-        price: '9,999',
+        price: '9,999/Months',
         features: [
           { included: true, text: 'Corporate Branding' },
           { included: true, text: 'Unlimited Concepts' },
@@ -497,8 +497,8 @@ const Pricing = ({ language }) => {
       },
       {
         icon: <Palette size={24} />,
-        name: 'Brochure Design',
-        price: '₹ 1,500 to ₹ 5,000',
+        name: 'Website Design',
+        price: '₹ 3,000 to ₹ 10,000',
         description: 'Based on pages and design'
       },
     ],
