@@ -342,17 +342,18 @@ const Pricing = ({ language }) => {
     
     services: [
       {
+        icon: <Palette size={24} />,
+        name: 'वेबसाइट डिझाइन',
+        price: '₹ 3,000 ते ₹ 10,000',
+        description: 'पृष्ठ आणि डिझाईननुसार'
+      },
+      {
         icon: <Video size={24} />,
         name: 'व्हिडिओ एडिटिंग',
         price: '₹ ५०० ते ₹ ५,०००',
         description: 'व्हिडिओ लांबी आणि जटिलतेनुसार'
       },
-      {
-        icon: <ImageIcon size={24} />,
-        name: 'फोटो एडिटिंग',
-        price: '₹ १०० ते ₹ १,०००',
-        description: 'प्रति फोटो किंमत'
-      },
+      
       {
         icon: <Palette size={24} />,
         name: 'ग्राफिक डिझाईन',
@@ -371,12 +372,7 @@ const Pricing = ({ language }) => {
         price: '₹ ५०० ते ₹ २,०००',
         description: 'डिझाईन आणि प्रिंटिंग'
       },
-      {
-        icon: <Palette size={24} />,
-        name: 'वेबसाइट डिझाइन',
-        price: '₹ 3,000 ते ₹ 10,000',
-        description: 'पृष्ठ आणि डिझाईननुसार'
-      },
+      
     ],
     
     faq: [
@@ -465,18 +461,19 @@ const Pricing = ({ language }) => {
     ],
     
     services: [
+       {
+        icon: <Palette size={24} />,
+        name: 'Website Design',
+        price: '₹ 3,000 to ₹ 10,000',
+        description: 'Based on pages and design'
+      },
       {
         icon: <Video size={24} />,
         name: 'Video Editing',
         price: '₹ 500 to ₹ 5,000',
         description: 'Based on video length and complexity'
       },
-      {
-        icon: <ImageIcon size={24} />,
-        name: 'Photo Editing',
-        price: '₹ 100 to ₹ 1,000',
-        description: 'Per photo price'
-      },
+      
       {
         icon: <Palette size={24} />,
         name: 'Graphic Design',
@@ -495,12 +492,7 @@ const Pricing = ({ language }) => {
         price: '₹ 500 to ₹ 2,000',
         description: 'Design and printing'
       },
-      {
-        icon: <Palette size={24} />,
-        name: 'Website Design',
-        price: '₹ 3,000 to ₹ 10,000',
-        description: 'Based on pages and design'
-      },
+     
     ],
     
     faq: [
