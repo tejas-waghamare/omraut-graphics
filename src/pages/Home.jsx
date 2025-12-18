@@ -127,7 +127,7 @@ const Home = ({ language, setCurrentPage }) => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-150 overflow-hidden bg-gradient-to-br from-slate-950 via-zinc-950 to-gray-950 text-white">
-        <div className="absolute inset-0 bg-black opacity-10">
+        <div className="absolute inset-0 bg-black opacity-20">
             <img className='h-full w-full' src={bg} alt="" />
             </div>
         <div className="container relative mx-auto px-4 py-20 md:py-28">
