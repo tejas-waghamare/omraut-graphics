@@ -386,7 +386,7 @@ const Pricing = ({ language }) => {
       },
       {
         q: "काय फाइल फॉर्मॅट मिळतील?",
-        a: "सर्व सोर्स फाइल्स (AI, EPS, PSD) आणि वापरण्यायोग्य फाइल्स (PNG, JPG, PDF) मिळतील."
+        a: "सर्व वापरण्यायोग्य फाइल्स (PNG, JPG, PDF) मिळतील."
       },
       {
         q: "एकाच वेळी अनेक सेवा घेऊ शकतो का?",
@@ -506,7 +506,7 @@ const Pricing = ({ language }) => {
       },
       {
         q: "What file formats will I receive?",
-        a: "All source files (AI, EPS, PSD) and usable files (PNG, JPG, PDF) will be provided."
+        a: "All files usable files (PNG, JPG, PDF) will be provided."
       },
       {
         q: "Can I take multiple services at once?",
