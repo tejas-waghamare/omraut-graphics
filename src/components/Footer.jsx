@@ -133,7 +133,7 @@ const Footer = ({ language, setCurrentPage }) => {
     subscribe: 'सबस्क्राईब',
     rights: 'सर्व हक्क राखीव',
     address: 'अमरावती, महाराष्ट्र',
-    phone: '8717133672, 7218644962',
+    phone: '7218644962 , 8767133672',
     email: 'info@omrautgraphics.com',
     
     quickLinksItems: [
@@ -161,7 +161,7 @@ const Footer = ({ language, setCurrentPage }) => {
     subscribe: 'Subscribe',
     rights: 'All rights reserved',
     address: 'Amravati, Maharashtra',
-    phone: '8717133672, 7218644962',
+    phone: '7218644962 , 8767133672',
     email: 'info@omrautgraphics.com',
     
     quickLinksItems: [
