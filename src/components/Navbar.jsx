@@ -115,7 +115,7 @@ const Navbar = ({ currentPage, setCurrentPage, language, setLanguage }) => {
             {/* Language Toggle */}
             <button
               onClick={() => setLanguage(language === 'marathi' ? 'english' : 'marathi')}
-              className="flex items-center space-x-2 px-3 py-1 bg-blue-800 rounded-lg hover:bg-blue-700 transition"
+              className="flex items-center space-x-2 px-3 py-1 bg-pink-800 rounded-lg hover:bg-blue-900 transition"
             >
               <Globe size={16} />
               <span className="font-medium">
