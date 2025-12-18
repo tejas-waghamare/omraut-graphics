@@ -414,7 +414,7 @@ const Pricing = ({ language }) => {
       {
         name: 'Basic',
         description: 'For small businesses and startups',
-        price: '1,999',
+        price: '2,999',
         features: [
           { included: true, text: 'Simple Logo Design' },
           { included: true, text: '2 Design Concepts' },

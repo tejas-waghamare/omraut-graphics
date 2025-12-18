@@ -292,9 +292,9 @@ const Services = ({ language }) => {
     services: [
       {
         icon: <Target size={28} />,
-        title: 'लोगो डिझाईन',
-        description: 'युनिक आणि मेमोरेबल लोगो डिझाईन तुमच्या ब्रँडसाठी',
-        features: ['कॉर्पोरेट लोगो', 'ब्रँड लोगो', 'सिम्पल लोगो', 'क्रिएटिव्ह लोगो']
+        title: 'सोशल मीडिया डिझाईन',
+        description: 'सोशल मीडियावर आकर्षक डिझाईन आणि प्रोमोशन',
+        features: ['वाढदिवस डिझाईन', 'सण-उत्सव डिझाईन', 'राजकीय डिझाईन', 'जयंती- पुण्यतिथी डिझाईन','व्यवसाय डिझाईन']
       },
       {
         icon: <Calendar size={28} />,
@@ -303,10 +303,10 @@ const Services = ({ language }) => {
         features: ['लग्न निमंत्रण', 'जन्मदिन निमंत्रण', 'कार्यक्रम निमंत्रण', 'व्यवसाय निमंत्रण']
       },
       {
-        icon: <Layers size={28} />,
-        title: 'पोस्टर डिझाईन',
-        description: 'आकर्षक पोस्टर डिझाईन इव्हेंट, प्रोमोशन आणि अ‍ॅडव्हर्टायझिंगसाठी',
-        features: ['मूव्ही पोस्टर', 'इव्हेंट पोस्टर', 'प्रोडक्ट पोस्टर', 'प्रोमोशन पोस्टर']
+        icon: <Target size={28} />,
+        title: 'लोगो डिझाईन',
+        description: 'युनिक आणि मेमोरेबल लोगो डिझाईन तुमच्या ब्रँडसाठी',
+        features: ['कॉर्पोरेट लोगो', 'ब्रँड लोगो', 'सिम्पल लोगो', 'क्रिएटिव्ह लोगो']
       },
       {
         icon: <Printer size={28} />,
@@ -316,9 +316,9 @@ const Services = ({ language }) => {
       },
       {
         icon: <Award size={28} />,
-        title: 'ब्रँडिंग',
-        description: 'संपूर्ण ब्रँड आयडेंटिटी डिझाईन आणि डेव्हलपमेंट',
-        features: ['ब्रँड स्ट्रॅटेजी', 'कलर पॅलेट', 'टायपोग्राफी', 'ब्रँड गाइडलाइन्स']
+        title: 'वेबसाइट डिझाइन',
+        description: 'व्यावसायिक वेबसाइट डिझाईन आणि विकास सेवा',
+        features: ['वेबसाइट डिझाईन', 'वेबसाइट होस्टिंग', 'वेबसाइट हाताळणी']
       },
       {
         icon: <BookOpen size={28} />,
@@ -327,28 +327,10 @@ const Services = ({ language }) => {
         features: ['बिल बुक', 'रिसीप्ट बुक', 'इनव्हॉइस', 'अकाउंटिंग फॉर्म्स']
       },
       {
-        icon: <CreditCard size={28} />,
-        title: 'आयडी कार्ड डिझाईन',
-        description: 'व्यावसायिक आयडी कार्ड, मेम्बरशिप कार्ड आणि बॅज डिझाईन',
-        features: ['एम्प्लॉयी आयडी', 'स्टुडंट आयडी', 'मेम्बरशिप कार्ड', 'सिक्युरिटी बॅज']
-      },
-      {
-        icon: <Gift size={28} />,
-        title: 'थीम डिझाईन',
-        description: 'इव्हेंट्स, सेलिब्रेशन्स आणि प्रोमोशन्ससाठी थीम डिझाईन',
-        features: ['वेडिंग थीम', 'पार्टी थीम', 'फेस्टिव्हल थीम', 'प्रोडक्ट लॉन्च थीम']
-      },
-      {
         icon: <Video size={28} />,
         title: 'व्हिडिओ एडिटिंग',
         description: 'व्यावसायिक व्हिडिओ संपादन, व्हिडिओ प्रोडक्शन, मोशन ग्राफिक्स',
         features: ['व्हिडिओ प्रोमोशन', 'वेडिंग व्हिडिओ', 'इव्हेंट व्हिडिओ', 'यूट्यूब व्हिडिओ']
-      },
-      {
-        icon: <ImageIcon size={28} />,
-        title: 'फोटो एडिटिंग',
-        description: 'प्रतिमा संपादन, रंगदुरुस्ती, बॅकग्राउंड रिमूव्हल, फोटो रिस्टोरेशन',
-        features: ['व्यावसायिक फोटोशूट', 'प्रोडक्ट फोटोग्राफी', 'पोर्ट्रेट रिटचिंग', 'कलर करेक्शन']
       },
       {
         icon: <Palette size={28} />,
@@ -360,7 +342,7 @@ const Services = ({ language }) => {
         icon: <Megaphone size={28} />,
         title: 'अ‍ॅडव्हर्टायझिंग',
         description: 'डिजिटल आणि प्रिंट मीडियासाठी अ‍ॅडव्हर्टायझिंग सोल्यूशन',
-        features: ['डिजिटल मार्केटिंग', 'प्रिंट मीडिया', 'सोशल मीडिया अ‍ॅड्स', 'कॅम्पेन डिझाईन']
+        features: ['डिजिटल मार्केटिंग', 'प्रिंट मीडिया', 'निवडणूक व्यवस्थापन', 'कॅम्पेन डिझाईन']
       }
     ],
     
@@ -449,9 +431,9 @@ const Services = ({ language }) => {
     services: [
       {
         icon: <Target size={28} />,
-        title: 'Logo Design',
-        description: 'Unique and memorable logo design for your brand',
-        features: ['Corporate Logo', 'Brand Logo', 'Simple Logo', 'Creative Logo']
+        title: 'Social Media Design',
+        description: 'Attractive design and promotion on social media',
+        features: ['Birthday Design', 'Festival Design', 'Political Design', 'Anniversary Design','Business Design']
       },
       {
         icon: <Calendar size={28} />,
@@ -460,10 +442,10 @@ const Services = ({ language }) => {
         features: ['Wedding Invitations', 'Birthday Invitations', 'Event Invitations', 'Business Invitations']
       },
       {
-        icon: <Layers size={28} />,
-        title: 'Poster Design',
-        description: 'Eye-catching poster designs for events, promotions and advertising',
-        features: ['Movie Posters', 'Event Posters', 'Product Posters', 'Promotion Posters']
+        icon: <Target size={28} />,
+        title: 'Logo Design',
+        description: 'Unique and memorable logo design for your brand',
+        features: ['Corporate Logo', 'Brand Logo', 'Simple Logo', 'Creative Logo']
       },
       {
         icon: <Printer size={28} />,
@@ -473,9 +455,9 @@ const Services = ({ language }) => {
       },
       {
         icon: <Award size={28} />,
-        title: 'Branding',
-        description: 'Complete brand identity design and development',
-        features: ['Brand Strategy', 'Color Palette', 'Typography', 'Brand Guidelines']
+        title: 'Website Design',
+        description: 'Professional website design and development service',
+        features: ['Website Design', 'Website Hosting', 'Website Maintenance']
       },
       {
         icon: <BookOpen size={28} />,
@@ -484,28 +466,10 @@ const Services = ({ language }) => {
         features: ['Bill Books', 'Receipt Books', 'Invoices', 'Accounting Forms']
       },
       {
-        icon: <CreditCard size={28} />,
-        title: 'ID Card Design',
-        description: 'Professional ID cards, membership cards and badge design',
-        features: ['Employee ID', 'Student ID', 'Membership Cards', 'Security Badges']
-      },
-      {
-        icon: <Gift size={28} />,
-        title: 'Theme Design',
-        description: 'Theme designs for events, celebrations and promotions',
-        features: ['Wedding Themes', 'Party Themes', 'Festival Themes', 'Product Launch Themes']
-      },
-      {
         icon: <Video size={28} />,
         title: 'Video Editing',
         description: 'Professional video editing, video production, motion graphics',
         features: ['Video Promotion', 'Wedding Video', 'Event Video', 'YouTube Video']
-      },
-      {
-        icon: <ImageIcon size={28} />,
-        title: 'Photo Editing',
-        description: 'Image editing, color correction, background removal, photo restoration',
-        features: ['Professional Photoshoot', 'Product Photography', 'Portrait Retouching', 'Color Correction']
       },
       {
         icon: <Palette size={28} />,
@@ -517,7 +481,7 @@ const Services = ({ language }) => {
         icon: <Megaphone size={28} />,
         title: 'Advertising',
         description: 'Advertising solutions for digital and print media',
-        features: ['Digital Marketing', 'Print Media', 'Social Media Ads', 'Campaign Design']
+        features: ['Digital Marketing', 'Print Media', 'Election Management', 'Campaign Design']
       }
     ],
     

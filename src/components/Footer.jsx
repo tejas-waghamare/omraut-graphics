@@ -160,7 +160,7 @@ const Footer = ({ language, setCurrentPage }) => {
     newsletterPlaceholder: 'Your email',
     subscribe: 'Subscribe',
     rights: 'All rights reserved',
-    address: 'Nandgaon Peth,Amravati, Maharashtra',
+    address: 'Amravati, Maharashtra',
     phone: '8717133672, 7218644962',
     email: 'info@omrautgraphics.com',
     
@@ -193,25 +193,19 @@ const Footer = ({ language, setCurrentPage }) => {
               </div>
               <div>
                 <h1 className="text-xl font-bold">Om Raut Graphics</h1>
-                <p className="text-sm text-blue-200">वा सोल्यूशन</p>
               </div>
             </div>
             <p className="text-gray-300 mb-6">
               {content.description}
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-white transition">
+              <a href="https://www.facebook.com/share/1DDyenr9Lh/" className="text-gray-300 hover:text-white transition">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-gray-300 hover:text-white transition">
+              <a href="https://www.instagram.com/omraut_graphics_173?igsh=ajExNWZjbGJqN3Fm" className="text-gray-300 hover:text-white transition">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-gray-300 hover:text-white transition">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-gray-300 hover:text-white transition">
-                <Youtube size={20} />
-              </a>
+              
             </div>
           </div>
           

@@ -1094,7 +1094,7 @@ _हा संदेश OmRautGraphics वेबसाइटवरून पा�
       {
         icon: <MapPin size={24} />,
         title: 'Location',
-        details: 'Nandgaon Peth, Amravati, Maharashtra',
+        details: 'Amravati, Maharashtra',
         subtitle: 'Services available everywhere'
       }
     ],
@@ -1255,7 +1255,6 @@ _हा संदेश OmRautGraphics वेबसाइटवरून पा�
                         name="email"
                         value={formData.email}
                         onChange={handleChange}
-                        required
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
                         placeholder={content.placeholderEmail}
                       />
@@ -1274,6 +1273,7 @@ _हा संदेश OmRautGraphics वेबसाइटवरून पा�
                         name="phone"
                         value={formData.phone}
                         onChange={handleChange}
+                        required
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
                         placeholder={content.placeholderPhone}
                       />

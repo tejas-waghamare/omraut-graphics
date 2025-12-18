@@ -76,7 +76,7 @@
 
 import React from 'react';
 import { PlayCircle, Image, Brush, Target, CheckCircle, Clock, Users, Award, ArrowRight } from 'lucide-react';
-import bg from '../assets/image.png'
+import bg from '../assets/image1.png'
 
 const Home = ({ language, setCurrentPage }) => {
   const content = language === 'marathi' ? {
@@ -90,7 +90,7 @@ const Home = ({ language, setCurrentPage }) => {
     viewWork: 'आमची कामे पहा',
     services: [
       { icon: <PlayCircle size={32} />, title: 'व्हिडिओ एडिटिंग', desc: 'व्यावसायिक व्हिडिओ संपादन' },
-      { icon: <Image size={32} />, title: 'फोटो एडिटिंग', desc: 'प्रतिमा संपादन आणि रंगदुरुस्ती' },
+      { icon: <Image size={32} />, title: 'निवडणूक प्रचार', desc: 'राजकीय डिझाईन' },
       { icon: <Brush size={32} />, title: 'ग्राफिक डिझाईन', desc: 'क्रिएटिव्ह ग्राफिक डिझाईन' },
       { icon: <Target size={32} />, title: 'लोगो डिझाईन', desc: 'युनिक लोगो डिझाईन' },
     ],
@@ -111,7 +111,7 @@ const Home = ({ language, setCurrentPage }) => {
     viewWork: 'View Our Work',
     services: [
       { icon: <PlayCircle size={32} />, title: 'Video Editing', desc: 'Professional video editing' },
-      { icon: <Image size={32} />, title: 'Photo Editing', desc: 'Image editing and color correction' },
+      { icon: <Image size={32} />, title: 'Election Campaign', desc: 'Election campaign design' },
       { icon: <Brush size={32} />, title: 'Graphic Design', desc: 'Creative graphic design' },
       { icon: <Target size={32} />, title: 'Logo Design', desc: 'Unique logo design' },
     ],
