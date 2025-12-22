@@ -101,7 +101,7 @@ const Navbar = ({ currentPage, setCurrentPage, language, setLanguage }) => {
     <nav className="fixed top-0 w-full bg-gradient-to-r from-sky-700 to-purple-900 text-white shadow-lg z-50">
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center space-x-3 cursor-pointer " onClick={() => setCurrentPage('home')}>
             <div className="w-12 h-12 bg-gradient-to-br from-black to-orange-400 rounded-lg flex items-center justify-center shadow-lg">
               <span className="text-white font-bold p-1 text-xl"><img src={logo} alt="" /></span>
             </div>
